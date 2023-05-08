@@ -1,0 +1,1 @@
+select ename,dno,eno from employee where ename like '%r%r%' or ename like '%a%a% and dno=2 or (job_type="manager" and eno=102)
