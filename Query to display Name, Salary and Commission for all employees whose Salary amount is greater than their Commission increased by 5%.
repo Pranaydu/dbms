@@ -1,0 +1,1 @@
+select ename,salary,commission from employee where commission>(salary*0,05);
