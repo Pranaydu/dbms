@@ -1,0 +1,1 @@
+select concat(eno,',',ename,',',job_type,',',supervisoneno,',',hire_date,',',dno,',',comission,',',salary)as the_output from employee;
