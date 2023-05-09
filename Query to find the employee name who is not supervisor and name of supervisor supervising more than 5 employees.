@@ -1,0 +1,2 @@
+select ename as name from employee e where not exits (select supervisoneno from employee c where e.eno=c.supervisioneno) union 
+select ename from employee a where(select count(*) from employee  b where a.eno=b.supervisoneno group by supervisoneno)>5 ;
