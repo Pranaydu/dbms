@@ -1,0 +1,2 @@
+select ename,hire_date from employee as e,department as d where e.dno=d.dno and dname=(select dname from employee ,department 
+where employee.dno=department.dno and ename="marry") and ename!="marry ;
