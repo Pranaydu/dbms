@@ -1,0 +1,1 @@
+select e.dno,e.ename,job_type from employee as e,department as d where e.dno=d.dno and dname="sales" ;
