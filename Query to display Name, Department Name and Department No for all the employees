@@ -1,0 +1,1 @@
+selecte e.ename,d.dname,e.dno frpom employee e, department d where e.dno=d.dno ;
