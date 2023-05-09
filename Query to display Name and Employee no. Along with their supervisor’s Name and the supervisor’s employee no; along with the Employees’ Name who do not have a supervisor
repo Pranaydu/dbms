@@ -1,0 +1,1 @@
+select t1.ename,t1.eno,t1.supervisoneno,t2.eno,t2.ename as"supervisor name" from employee as t1 left outer join employee as t2.supervisoneno=t2,eno ;
