@@ -1,0 +1,1 @@
+select concat(ename,"earns" ,salary,"monthly but wants" ,3*salary) as dream_salary from employee ;
