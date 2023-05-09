@@ -1,0 +1,1 @@
+select min(job_type),max(job_type) from employee;
