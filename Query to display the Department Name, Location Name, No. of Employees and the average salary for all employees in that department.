@@ -1,0 +1,1 @@
+select dname,location,count(*) as no. of employee ,avg(salary) from employee e,department d where e.dno=d.dno group by e.dno ;
