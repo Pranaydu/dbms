@@ -1,0 +1,2 @@
+select  concat(upper(substring(ename,1,1)),lower(substring(ename,2,50))) as name,length(ename)as length 
+from employee where ename like "j%" or ename like "a%" or ename like "m%" ;
