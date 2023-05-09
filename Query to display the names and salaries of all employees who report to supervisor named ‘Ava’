@@ -1,0 +1,1 @@
+select ename,salary from employee where supervisoneno=(select eno from employee where ename ="ava") ;
