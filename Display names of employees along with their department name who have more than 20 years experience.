@@ -1,0 +1,2 @@
+select ename,department.dname from employee,department where employee.dno=department.dno and (year(current_data()-year(hire_date)-1
++floor(12month(hire_date)-1 +month(current_date()) +floor(30-day(hire_date)+day(current_date()))/30)/12)>4 ;
