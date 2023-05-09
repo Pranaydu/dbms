@@ -1,0 +1,1 @@
+select ename,dname from employee e, department d where e.dno=d.dno and ename like "%a%" ;
